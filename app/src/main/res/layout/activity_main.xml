@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="194dp"
+            android:layout_height="147dp"
+            android:layout_marginLeft="100sp"
+            android:alpha="0.7"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/india" />
+
+        <TextView
+            android:id="@+id/casesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25sp"
+            android:layout_marginTop="150sp"
+            android:text="Cases"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200sp"
+            android:layout_marginTop="150sp"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/activeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25sp"
+            android:layout_marginTop="220sp"
+            android:text="Active"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200sp"
+            android:layout_marginTop="220sp"
+            android:text=""
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+        android:id="@+id/deathsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="280sp"
+        android:text="Deaths"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/deaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200sp"
+            android:layout_marginTop="280sp"
+            android:text=""
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/creatorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="5sp"
+            android:gravity="center_horizontal|end"
+            android:text="Created by Amit Singh"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/recoveredText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25sp"
+            android:layout_marginTop="340sp"
+            android:text="Recovered"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/recovered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200sp"
+            android:layout_marginTop="340sp"
+            android:text=""
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="227dp"
+            android:layout_height="266dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="50sp"
+            android:alpha="0.4"
+            app:srcCompat="@drawable/virus" />
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
